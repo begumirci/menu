@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "name": "Americano",
+    "sizes": {
+      "M": 85,
+      "S": 75
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 3,
+    "name": "Cappuccino",
+    "sizes": {
+      "M": 90,
+      "S": 80
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 5,
+    "name": "Caramel Latte",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 7,
+    "name": "Çay",
+    "sizes": {
+      "M": 35,
+      "S": 25
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 8,
+    "name": "Chai Tea Latte",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+  { "id": 10, "name": "Cortado", "price": 90, "category": "Sıcak İçecekler" },
+
+  {
+    "id": 13,
+    "name": "Türk Kahvesi",
+    "sizes": {
+      "M": 65,
+      "S": 55
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 14,
+    "name": "Filter Coffee",
+    "sizes": {
+      "M": 80,
+      "S": 70
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 16,
+    "name": "Flat White",
+    "sizes": {
+      "M": 90,
+      "S": 80
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 18,
+    "name": "Irish Cream Latte",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 20,
+    "name": "Latte",
+    "sizes": {
+      "M": 90,
+      "S": 80
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 22,
+    "name": "Mocha",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 24,
+    "name": "Pumpkin Latte",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 26,
+    "name": "Salep",
+    "sizes": {
+      "M": 90,
+      "S": 80
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 28,
+    "name": "Espresso",
+    "sizes": {
+      "M": 65,
+      "S": 55
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 29,
+    "name": "Strawberry Latte",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 31,
+    "name": "Sıcak Çikolata",
+    "sizes": {
+      "M": 90,
+      "S": 80
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 33,
+    "name": "Toffe Nut Latte",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+
+  {
+    "id": 36,
+    "name": "Vista Cookie Latte",
+    "sizes": {
+      "M": 95,
+      "S": 85
+    },
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 38,
+    "name": "Berry Hibiscus",
+    "price": 115,
+    "category": "Soğuk İçecekler"
+  },
+  { "id": 39, "name": "Churchill", "price": 65, "category": "Soğuk İçecekler" },
+  { "id": 40, "name": "Frappe", "price": 110, "category": "Soğuk İçecekler" },
+  { "id": 41, "name": "Frozen", "price": 110, "category": "Soğuk İçecekler" },
+  {
+    "id": 42,
+    "name": "Iced Americano",
+    "price": 100,
+    "category": "Soğuk İçecekler"
+  },
+  {
+    "id": 43,
+    "name": "Iced Latte",
+    "price": 105,
+    "category": "Soğuk İçecekler"
+  },
+  { "id": 44, "name": "Limonata", "price": 80, "category": "Soğuk İçecekler" },
+  { "id": 45, "name": "Soda", "price": 40, "category": "Soğuk İçecekler" },
+  { "id": 46, "name": "Su", "price": 25, "category": "Soğuk İçecekler" },
+
+  {
+    "id": 48,
+    "name": "Astalavista",
+    "price": 130,
+    "category": "Vista Special Mocktails"
+  },
+  {
+    "id": 49,
+    "name": "Bourbon",
+    "price": 125,
+    "category": "Vista Special Mocktails"
+  },
+  {
+    "id": 50,
+    "name": "Bloom",
+    "price": 125,
+    "category": "Vista Special Mocktails"
+  },
+  {
+    "id": 51,
+    "name": "Flavor",
+    "price": 120,
+    "category": "Vista Special Mocktails"
+  },
+  {
+    "id": 52,
+    "name": "Antep Fıstıklı San Sebastian",
+    "price": 170,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 53,
+    "name": "Brownie",
+    "price": 140,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 54,
+    "name": "San Sebastian",
+    "price": 150,
+    "category": "Tatlılar"
+  }
+]
