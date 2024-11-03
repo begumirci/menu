@@ -36,8 +36,8 @@ export default function Products() {
 
       <div className='category-header'>
         <h1 className='category'></h1>
-        <img src='/public/small.png' className='small' alt='' />
-        <img src='/public/big.png' className='big' alt='' />
+        <img src='/small.png' className='small' alt='' />
+        <img src='/big.png' className='big' alt='' />
       </div>
       {filterData.map((product) => (
         <div key={product.id} className='coffe'>
