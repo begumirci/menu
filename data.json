@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Americano",
     "sizes": {
-      "M": 85,
-      "S": 75
+      "M": 95,
+      "S": 85
     },
     "category": "Sıcak İçecekler"
   },
@@ -12,8 +12,8 @@
     "id": 3,
     "name": "Cappuccino",
     "sizes": {
-      "M": 90,
-      "S": 80
+      "M": 105,
+      "S": 95
     },
     "category": "Sıcak İçecekler"
   },
@@ -21,8 +21,8 @@
     "id": 5,
     "name": "Caramel Latte",
     "sizes": {
-      "M": 95,
-      "S": 85
+      "M": 115,
+      "S": 105
     },
     "category": "Sıcak İçecekler"
   },
@@ -30,7 +30,7 @@
     "id": 7,
     "name": "Çay",
     "sizes": {
-      "M": 35,
+      "M": 40,
       "S": 25
     },
     "category": "Sıcak İçecekler"
@@ -44,14 +44,14 @@
     },
     "category": "Sıcak İçecekler"
   },
-  { "id": 10, "name": "Cortado", "price": 90, "category": "Sıcak İçecekler" },
+  { "id": 10, "name": "Cortado", "price": 100, "category": "Sıcak İçecekler" },
 
   {
     "id": 13,
     "name": "Türk Kahvesi",
     "sizes": {
-      "M": 65,
-      "S": 55
+      "M": 80,
+      "S": 60
     },
     "category": "Sıcak İçecekler"
   },
@@ -219,16 +219,29 @@
     "price": 170,
     "category": "Tatlılar"
   },
-  {
-    "id": 53,
-    "name": "Brownie",
-    "price": 140,
-    "category": "Tatlılar"
-  },
+
   {
     "id": 54,
     "name": "San Sebastian",
     "price": 150,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 55,
+    "name": "Vista Cup",
+    "price": 105,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 56,
+    "name": "Geisha",
+    "price": 120,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 57,
+    "name": "Cheesecake",
+    "price": 135,
     "category": "Tatlılar"
   }
 ]
