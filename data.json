@@ -192,38 +192,38 @@
   {
     "id": 48,
     "name": "Astalavista",
-    "price": 130,
+    "price": 135,
     "category": "Vista Special Mocktails"
   },
   {
     "id": 49,
     "name": "Bourbon",
-    "price": 125,
+    "price": 130,
     "category": "Vista Special Mocktails"
   },
   {
     "id": 50,
     "name": "Bloom",
-    "price": 125,
+    "price": 130,
     "category": "Vista Special Mocktails"
   },
   {
     "id": 51,
     "name": "Flavor",
-    "price": 120,
+    "price": 125,
     "category": "Vista Special Mocktails"
   },
   {
     "id": 52,
     "name": "Antep Fıstıklı San Sebastian",
-    "price": 170,
+    "price": 165,
     "category": "Tatlılar"
   },
 
   {
     "id": 54,
     "name": "San Sebastian",
-    "price": 150,
+    "price": 145,
     "category": "Tatlılar"
   },
   {
