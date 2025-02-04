@@ -4,6 +4,7 @@ import data from '../data.json';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Contextim } from './Provider';
+import QRGenerator from './qr';
 
 export default function Products() {
   const { filterProducts, products } = useContext(Contextim);
