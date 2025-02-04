@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../data.json';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Contextim } from './Provider';
 
 export default function Products() {
+  const { filterProducts, products } = useContext(Contextim);
   const { id } = useParams();
-  const [filterProducts, setFilterProducts] = useState([]);
 
-  const filterData = data.filter((dat) => dat.category == id);
+  const filterData = products.filter((dat) => dat.category == id);
 
   console.log(id);
+  const groupedProducts = filterData.reduce((acc, product) => {
+    if (!acc[product.name]) {
+      acc[product.name] = { name: product.name, S: null, M: null };
+    }
+    acc[product.name][product.size] = product.price;
+    return acc;
+  }, {});
   return (
     <div>
       <div className='header'>
@@ -36,19 +44,18 @@ export default function Products() {
 
       <div className='category-header'>
         <h1 className='category'></h1>
-        <img src='/small.png' className='small' alt='' />
-        <img src='/big.png' className='big' alt='' />
+        {id !== 'Tatlılar' && (
+          <>
+            <img src='/small.png' className='small' alt='' />
+            <img src='/big.png' className='big' alt='' />
+          </>
+        )}
       </div>
-      {filterData.map((product) => (
-        <div key={product.id} className='coffe'>
+      {Object.values(groupedProducts).map((product) => (
+        <div key={product.name} className='coffe'>
           <h2 className='name'>{product.name}</h2>
-          <h2 className='price'>
-            {product.sizes ? `${product.sizes.S}₺` : ''}
-          </h2>
-
-          <h2 className='price'>
-            {product.sizes ? product.sizes.M : product.price}₺
-          </h2>
+          <h2 className='price'>{product.S !== null ? `${product.S}₺` : ''}</h2>
+          <h2 className='price'>{product.M !== null ? `${product.M}₺` : ''}</h2>
         </div>
       ))}
     </div>

@@ -83,12 +83,14 @@ h6 {
   margin-block: 14px;
   opacity: 0.5;
   display: grid;
-  grid-template-columns: 5fr 1fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr;
   font-size: 12px;
   font-family: 'Montserrat', sans-serif;
   color: var(--text-color);
   gap: 25px;
   letter-spacing: 2px;
+  padding-block: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .categories {
@@ -134,7 +136,7 @@ a {
 
 .category-header {
   display: grid;
-  grid-template-columns: 5fr 1fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr;
   gap: 20px;
   align-items: flex-end;
   margin-top: 20px;
